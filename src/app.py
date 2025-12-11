@@ -15,7 +15,7 @@ from .backend import routers, database
 # Initialize web host
 app = FastAPI(
     title="Mergington High School API",
-    description="API for viewing and signing up for extracurricular activities"
+    description="API for viewings and signing up for extracurricular activities"
 )
 
 # Initialize database with sample data if empty
